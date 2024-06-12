@@ -2263,7 +2263,7 @@
 				)
 			)
 		)
-		(symbol "Diode_Bridge:B80C2300-1500B"
+		(symbol "Diode_Bridge:B40C2300-1500A"
 			(pin_names
 				(offset 0)
 			)
@@ -2279,7 +2279,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "B80C2300-1500B"
+			(property "Value" "B40C2300-1500A"
 				(at 2.54 5.08 0)
 				(effects
 					(font
@@ -2307,7 +2307,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Silicon Bridge Rectifier, 80V Vrms, 1.5A If, pins=-A+A, SIL-package"
+			(property "Description" "Silicon Bridge Rectifier, 40V Vrms, 1.5A If, pins=-AA+, SIL-package"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2334,7 +2334,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "B80C2300-1500B_0_1"
+			(symbol "B40C2300-1500A_0_1"
 				(polyline
 					(pts
 						(xy -2.54 3.81) (xy -1.27 2.54)
@@ -2444,7 +2444,7 @@
 					)
 				)
 			)
-			(symbol "B80C2300-1500B_1_1"
+			(symbol "B40C2300-1500A_1_1"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -2482,9 +2482,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2500,9 +2500,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 90)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8739,80 +8739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode_Bridge:B80C2300-1500B")
-		(at 88.9 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "704bc238-c633-43f2-8f04-57f5e4686cd0")
-		(property "Reference" "D1"
-			(at 78.486 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B80C2300-1500B"
-			(at 75.946 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Vishay_KBPM"
-			(at 92.71 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Silicon Bridge Rectifier, 80V Vrms, 1.5A If, pins=-A+A, SIL-package"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8515c73f-6b07-4bbe-a4ff-2494e5d4390c")
-		)
-		(pin "4"
-			(uuid "5f67e822-ba80-4965-8d1d-58d35e8c29ca")
-		)
-		(pin "1"
-			(uuid "cfdfc0da-d4a0-4620-92bc-ac6edbd26bd1")
-		)
-		(pin "3"
-			(uuid "89a4bdb7-38cc-4f60-9d8b-282536ad3650")
-		)
-		(instances
-			(project "Fuente_Conmutada"
-				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 62.23 40.64 270)
 		(unit 1)
@@ -9641,7 +9567,7 @@
 			(uuid "749f41c2-c001-4f47-bb4e-d1b18c876dcb")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "#PWR017")
 					(unit 1)
@@ -10388,6 +10314,81 @@
 			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode_Bridge:B40C2300-1500A")
+		(at 88.9 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd151592-2b02-47a1-8def-0476e24bbffd")
+		(property "Reference" "D6"
+			(at 104.14 44.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B40C2300-1500A"
+			(at 104.14 46.9198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:Diode_Bridge_Vishay_KBPM"
+			(at 92.71 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon Bridge Rectifier, 40V Vrms, 1.5A If, pins=-AA+, SIL-package"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6a628083-8657-4fed-858a-d018df847441")
+		)
+		(pin "4"
+			(uuid "90b59683-1741-4af9-98a7-379385a67e35")
+		)
+		(pin "1"
+			(uuid "ee62ef54-5ba8-4687-b0c8-c5a49bf6d9b9")
+		)
+		(pin "2"
+			(uuid "53df1942-b1f4-4dc1-817e-7802377f3138")
+		)
+		(instances
+			(project "Fuente_Conmutada"
+				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
+					(reference "D6")
 					(unit 1)
 				)
 			)
