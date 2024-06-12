@@ -3986,6 +3986,12 @@
 		(uuid "0adc2908-134a-45b3-9b2a-24f70f797e01")
 	)
 	(junction
+		(at 55.88 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b015129-0a70-44a4-ae4a-fadd355d3f42")
+	)
+	(junction
 		(at 142.24 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4040,12 +4046,6 @@
 		(uuid "5dab2904-6258-4b95-8c25-3ea31154de16")
 	)
 	(junction
-		(at 46.99 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e3ea798-f4de-461c-a501-aa183933e0f4")
-	)
-	(junction
 		(at 215.9 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4058,10 +4058,10 @@
 		(uuid "6eb65a29-f3e6-480c-93f7-8a38f05aeca8")
 	)
 	(junction
-		(at 104.14 40.64)
+		(at 107.95 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "73da20ad-ea1c-4337-9858-1b9a1cf31971")
+		(uuid "78f207cb-387d-4cb7-80fa-ca2ebf1e0cb1")
 	)
 	(junction
 		(at 163.83 44.45)
@@ -4088,10 +4088,10 @@
 		(uuid "8dcb0ab4-007c-49c4-9785-4292401e247b")
 	)
 	(junction
-		(at 104.14 59.69)
+		(at 107.95 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90a14190-bdcc-475a-836b-dbb2b69505a5")
+		(uuid "906890e3-c99a-4b4c-9a42-dc8bc9a30b02")
 	)
 	(junction
 		(at 187.96 116.84)
@@ -4152,6 +4152,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddc1d6ca-c6c6-4714-a2eb-a5daf7609968")
+	)
+	(junction
+		(at 107.95 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de3fb371-c0f5-4f64-8f85-2f8126b34217")
 	)
 	(junction
 		(at 163.83 49.53)
@@ -4273,7 +4279,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 40.64) (xy 104.14 41.91)
+			(xy 107.95 40.64) (xy 107.95 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4320,6 +4326,16 @@
 			(type default)
 		)
 		(uuid "07c95034-1eb7-46c3-954d-f007ec8dcdde")
+	)
+	(wire
+		(pts
+			(xy 55.88 60.96) (xy 49.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f98de0-3fa4-40e1-adcf-31392371c683")
 	)
 	(wire
 		(pts
@@ -4373,7 +4389,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 58.42) (xy 104.14 59.69)
+			(xy 107.95 58.42) (xy 107.95 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4470,16 +4486,6 @@
 			(type default)
 		)
 		(uuid "1f8b18a8-24e5-40da-8ea9-881b1a042297")
-	)
-	(wire
-		(pts
-			(xy 46.99 60.96) (xy 88.9 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fb09443-4aa4-41aa-ac7b-0d45de4024e7")
 	)
 	(wire
 		(pts
@@ -4693,7 +4699,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 40.64) (xy 104.14 40.64)
+			(xy 97.79 40.64) (xy 107.95 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4813,7 +4819,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 60.96) (xy 46.99 50.8)
+			(xy 49.53 60.96) (xy 49.53 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4833,23 +4839,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 40.64) (xy 46.99 48.26)
+			(xy 49.53 40.64) (xy 49.53 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "52dd8851-878b-459b-a9a3-2de83aa56b1f")
-	)
-	(wire
-		(pts
-			(xy 104.14 59.69) (xy 118.11 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "556229f3-3de7-4aaa-be8d-23e1c3216ac9")
 	)
 	(wire
 		(pts
@@ -4863,7 +4859,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 40.64) (xy 60.96 40.64)
+			(xy 49.53 40.64) (xy 58.42 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4883,7 +4879,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 59.69) (xy 104.14 59.69)
+			(xy 81.28 59.69) (xy 107.95 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4970,6 +4966,16 @@
 			(type default)
 		)
 		(uuid "60824b8d-b51b-4080-9efa-03db3b212381")
+	)
+	(wire
+		(pts
+			(xy 107.95 49.53) (xy 118.11 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619c6129-d617-4130-a601-3480cf0af47f")
 	)
 	(wire
 		(pts
@@ -5223,13 +5229,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 49.53) (xy 118.11 49.53)
+			(xy 105.41 49.53) (xy 107.95 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c7c5d2f-554f-4d19-b825-1a80a90bc369")
+	)
+	(wire
+		(pts
+			(xy 107.95 40.64) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904bd3f1-1c9d-4beb-81fe-b9b96e7a9bce")
 	)
 	(wire
 		(pts
@@ -5273,7 +5289,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 49.53) (xy 104.14 50.8)
+			(xy 107.95 49.53) (xy 107.95 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5343,13 +5359,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 60.96) (xy 46.99 62.23)
+			(xy 55.88 60.96) (xy 55.88 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a771468b-c2b2-49c9-aeee-e32eaa1e1729")
+	)
+	(wire
+		(pts
+			(xy 107.95 59.69) (xy 118.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c03bbc-6c63-423d-aa57-7a78fcf893fb")
 	)
 	(wire
 		(pts
@@ -5613,16 +5639,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 40.64) (xy 118.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4469454-2c8a-4868-b132-1e29f11eea11")
-	)
-	(wire
-		(pts
 			(xy 262.89 62.23) (xy 256.54 62.23)
 		)
 		(stroke
@@ -5693,6 +5709,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 60.96) (xy 88.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ff287b-2f47-446a-b8e0-d9aa47187c48")
+	)
+	(wire
+		(pts
 			(xy 99.06 110.49) (xy 99.06 111.76)
 		)
 		(stroke
@@ -5753,7 +5779,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 40.64) (xy 73.66 40.64)
+			(xy 66.04 40.64) (xy 73.66 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5878,7 +5904,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 116.84 49.53 90)
+		(at 105.41 49.53 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5887,7 +5913,7 @@
 		)
 		(uuid "310f3f59-d476-4f22-93da-ab0d9ef6f03c")
 		(property "Netclass" "Vs"
-			(at 115.062 48.006 0)
+			(at 103.632 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6209,7 @@
 			(uuid "6b2dfc59-ff3c-4ca9-b6a2-46c5dc6168dc")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "RV1")
 					(unit 1)
@@ -6286,7 +6312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 78.74 40.64 0)
 			(effects
 				(font
@@ -6320,7 +6346,7 @@
 			(uuid "45531cbd-345e-4c32-8ec5-ba0970f82a0f")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "TH1")
 					(unit 1)
@@ -6482,7 +6508,7 @@
 			(uuid "57934549-76ab-4193-b640-248fe0037477")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "D4")
 					(unit 1)
@@ -6685,7 +6711,7 @@
 			(uuid "475f0e55-7913-4235-94a9-0f6672b72dba")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "JP2")
 					(unit 1)
@@ -7138,7 +7164,7 @@
 			(uuid "ce99f4ad-a821-4c28-8e43-4802202179ad")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "U1")
 					(unit 1)
@@ -7406,7 +7432,7 @@
 			(uuid "bfeb19e0-bb06-4b67-b0d6-be59c1e7976c")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "C3")
 					(unit 1)
@@ -7542,7 +7568,7 @@
 			(uuid "9e42651e-9201-4c59-be4d-732f8dbc16c0")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "C4")
 					(unit 1)
@@ -7622,7 +7648,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 62.23 0)
+		(at 55.88 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7631,7 +7657,7 @@
 		(fields_autoplaced yes)
 		(uuid "515dd915-31bf-4595-979d-3f7c5964c51b")
 		(property "Reference" "#PWR018"
-			(at 46.99 68.58 0)
+			(at 55.88 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,7 +7666,7 @@
 			)
 		)
 		(property "Value" "GND_AC"
-			(at 46.99 67.31 0)
+			(at 55.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +7674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 62.23 0)
+			(at 55.88 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +7683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 62.23 0)
+			(at 55.88 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,7 +7692,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 62.23 0)
+			(at 55.88 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7746,7 +7772,7 @@
 			(uuid "fa40505e-02b6-41ac-b96f-4c93a4a2c941")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "JP1")
 					(unit 1)
@@ -7780,7 +7806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transformer_THT:Transformer_Breve_TEZ-28x33"
+		(property "Footprint" "TransformerLib:Ferrite_Core_Trans"
 			(at 207.01 52.07 0)
 			(effects
 				(font
@@ -7823,7 +7849,7 @@
 			(uuid "27af3e99-a7d0-461a-8168-2e6b025f4ba7")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "T1")
 					(unit 1)
@@ -7965,7 +7991,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 45.72 0)
+		(at 107.95 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7974,7 +8000,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aaccba1-a032-4c7a-8cd7-017fcad69b48")
 		(property "Reference" "R1"
-			(at 106.68 44.4499 0)
+			(at 110.49 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +8009,7 @@
 			)
 		)
 		(property "Value" "150K"
-			(at 106.68 46.9899 0)
+			(at 110.49 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,7 +8018,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 102.362 45.72 90)
+			(at 106.172 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8001,7 +8027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 45.72 0)
+			(at 107.95 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +8036,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 45.72 0)
+			(at 107.95 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8025,7 +8051,7 @@
 			(uuid "690105cb-1ac4-4173-a518-c56c34e49e09")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "R1")
 					(unit 1)
@@ -8180,7 +8206,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 54.61 0)
+		(at 107.95 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8189,7 +8215,7 @@
 		(fields_autoplaced yes)
 		(uuid "61feb547-189d-4436-9b38-6e26694941f5")
 		(property "Reference" "R2"
-			(at 106.68 53.3399 0)
+			(at 110.49 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8198,7 +8224,7 @@
 			)
 		)
 		(property "Value" "150K"
-			(at 106.68 55.8799 0)
+			(at 110.49 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8207,7 +8233,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 102.362 54.61 90)
+			(at 106.172 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 54.61 0)
+			(at 107.95 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8251,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 54.61 0)
+			(at 107.95 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8346,7 +8372,7 @@
 			(uuid "1249e84d-7e02-4bb3-b580-e7999565145c")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "U2")
 					(unit 1)
@@ -8412,7 +8438,7 @@
 			(uuid "3520ec78-ed45-4b05-a600-559c2bbe8e25")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "#PWR02")
 					(unit 1)
@@ -8478,7 +8504,7 @@
 			(uuid "14e54af5-8d3f-4743-88ff-63a9c989cc57")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "#PWR01")
 					(unit 1)
@@ -8512,7 +8538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Radial_D18.0mm_P10.00mm"
+		(property "Footprint" "Inductor_THT:L_Toroid_Vertical_L22.4mm_W10.2mm_P7.90mm_Vishay_TJ4"
 			(at 251.46 52.07 0)
 			(effects
 				(font
@@ -8546,7 +8572,7 @@
 			(uuid "c5dddcfa-8265-4a89-a02b-b561f20ba1ce")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "L1")
 					(unit 1)
@@ -8646,7 +8672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:Diode_Bridge_Round_D9.8mm"
+		(property "Footprint" "Diode_THT:Diode_Bridge_Vishay_KBPM"
 			(at 92.71 47.625 0)
 			(effects
 				(font
@@ -8687,7 +8713,7 @@
 			(uuid "89a4bdb7-38cc-4f60-9d8b-282536ad3650")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "D1")
 					(unit 1)
@@ -8697,7 +8723,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 64.77 40.64 270)
+		(at 62.23 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8706,7 +8732,7 @@
 		(fields_autoplaced yes)
 		(uuid "72223c12-8506-4ba0-881b-497afa947ee0")
 		(property "Reference" "F1"
-			(at 64.77 34.29 90)
+			(at 62.23 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,15 +8740,15 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 64.77 36.83 90)
+			(at 62.23 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_SunFuse-6HP"
-			(at 64.77 38.862 90)
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open"
+			(at 62.23 38.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +8757,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 40.64 0)
+			(at 62.23 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8740,7 +8766,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 64.77 40.64 0)
+			(at 62.23 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +8781,7 @@
 			(uuid "2dcb5b8d-9a3d-43fb-89d9-eb47a46eb21d")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "F1")
 					(unit 1)
@@ -8892,7 +8918,7 @@
 			(uuid "8bc3593f-0a7b-4998-84f1-0ceab42c3f7a")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "R3")
 					(unit 1)
@@ -9111,7 +9137,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 41.91 50.8 180)
+		(at 44.45 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9119,7 +9145,7 @@
 		(dnp no)
 		(uuid "8a7e6a45-ddfb-4e0f-9a14-5ef07c2c7e18")
 		(property "Reference" "J1"
-			(at 41.91 45.466 0)
+			(at 44.45 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9127,7 +9153,7 @@
 			)
 		)
 		(property "Value" "Terminal_220v"
-			(at 38.354 53.848 0)
+			(at 40.894 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9135,7 +9161,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
-			(at 41.91 50.8 0)
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9144,7 +9170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 50.8 0)
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,7 +9179,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 50.8 0)
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,7 +9194,7 @@
 			(uuid "5aaa7fae-fc13-41aa-a9f7-8789bfe5788c")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "J1")
 					(unit 1)
@@ -9319,7 +9345,7 @@
 			(uuid "bdfcb8f8-120c-4f76-b55e-6354f6cf394e")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "D2")
 					(unit 1)
@@ -9523,7 +9549,7 @@
 			(uuid "648490c2-a936-4c4f-991d-dccdce524e17")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "C1")
 					(unit 1)
@@ -10470,7 +10496,7 @@
 			(uuid "5ee45944-3234-4c5c-a5a1-f4a0c8575cf2")
 		)
 		(instances
-			(project ""
+			(project "Fuente_Conmutada"
 				(path "/07c86916-f750-4a67-9109-c3040a9c13cc"
 					(reference "D5")
 					(unit 1)
