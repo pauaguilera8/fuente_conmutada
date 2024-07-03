@@ -7638,7 +7638,7 @@
 			)
 		)
 		(property "Value" "TL494"
-			(at 83.566 110.49 0)
+			(at 83.82 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9842,7 +9842,7 @@
 				)
 			)
 		)
-		(property "Value" "BA243"
+		(property "Value" "1N4001"
 			(at 167.64 107.95 0)
 			(effects
 				(font
