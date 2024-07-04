@@ -552,15 +552,16 @@
 			(layer "F.Fab")
 			(uuid "21879ae9-d521-486f-8612-da8e40bf09b6")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Stonecold_HS-S02_13.21x9.53mm.wrl"
+		(model "C:/Users/Isaac/Documents/KiCad/8.0/3dmodels/kicad-packages3D-master/Heatsink.3dshapes/Heatsink_125x35x50mm_3xFixationM3.wrl"
+			(hide yes)
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0.5 27)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 0.1 0.15 0.7)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 180 180)
 			)
 		)
 	)
@@ -1655,6 +1656,7 @@
 			(uuid "1db8598c-d81e-4708-a2a0-657017320cf2")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1663,6 +1665,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/Isaac/Desktop/Universidad/5-QuintoAnio/Tecnología Electrónica/TP3/78xx.STEP"
+			(offset
+				(xyz 7.5 -2.5 15.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -2397,6 +2410,7 @@
 			(uuid "9fd6461f-c389-49a3-b0e9-ba0ab4e67710")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Toroid_Vertical_L22.4mm_W10.2mm_P7.90mm_Vishay_TJ4.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2405,6 +2419,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_THT_Wurth.3dshapes/L_Wurth_WE-HCFT-2012_LeadDiameter1.5mm.wrl"
+			(offset
+				(xyz 0 3 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -2694,6 +2719,7 @@
 			(uuid "f4c83799-b9db-411c-bf6a-caeb65e6a9c6")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2702,6 +2728,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/Isaac/Desktop/Universidad/5-QuintoAnio/Tecnología Electrónica/TP3/78xx.STEP"
+			(offset
+				(xyz 7.5 -2.5 15.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -4201,6 +4238,7 @@
 			(uuid "af3de154-725c-44a7-9c36-3e341df343b1")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_Altech_AK300-2_P5.00mm.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4208,7 +4246,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 180 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
+			(offset
+				(xyz 5.2 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -5809,15 +5858,16 @@
 			(layer "F.Fab")
 			(uuid "d886d9ef-9925-4fd3-8bd9-2acdc92fd8da")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Stonecold_HS-S02_13.21x9.53mm.wrl"
+		(model "C:/Users/Isaac/Documents/KiCad/8.0/3dmodels/kicad-packages3D-master/Heatsink.3dshapes/Heatsink_125x35x50mm_3xFixationM3.wrl"
+			(hide yes)
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0.5 27)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 0.1 0.15 0.7)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 180 180)
 			)
 		)
 	)
@@ -6895,6 +6945,7 @@
 			(uuid "1fd449c0-aea6-4e83-8127-5592be898fe9")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_Altech_AK300-2_P5.00mm.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6903,6 +6954,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
+			(offset
+				(xyz 4.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -13278,6 +13340,17 @@
 			(pintype "passive")
 			(uuid "32294a85-7fb0-4ed5-b2ff-f95d6f26c499")
 		)
+		(model "C:/Users/Isaac/Desktop/Universidad/5-QuintoAnio/Tecnología Electrónica/TP3/Transformer EE30157.stp"
+			(offset
+				(xyz -13.5 -10.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
 		(layer "F.Cu")
@@ -14353,6 +14426,7 @@
 			(uuid "7b7f0b56-7f6c-4d11-84ce-ad62e142946c")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_Altech_AK300-2_P5.00mm.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14361,6 +14435,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x02_P5.00mm_45-Degree.wrl"
+			(offset
+				(xyz 5.2 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -16456,6 +16541,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "C:/Users/Isaac/Documents/KiCad/8.0/3dmodels/kicad-packages3D-master/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3266W_Vertical.wrl"
+			(offset
+				(xyz 0.6 0 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
 	)
 	(footprint "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal"
 		(layer "F.Cu")
@@ -16802,6 +16898,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/Isaac/Documents/KiCad/8.0/3dmodels/kicad-packages3D-master/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3266W_Vertical.wrl"
+			(offset
+				(xyz 0.6 0 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
 			)
 		)
 	)
@@ -19874,6 +19981,17 @@
 		(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Stonecold_HS-S02_13.21x9.53mm.wrl"
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm.wrl"
+			(offset
+				(xyz 0 -4.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -25002,11 +25120,23 @@
 			(uuid "bc18e669-01cb-4150-a245-f03cce47d35c")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_KBPM.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 0.7 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_GBL.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.75 0.9 1)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -26434,7 +26564,7 @@
 			(xy 73.403 40.892) (xy 73.403 135.892)
 		)
 		(height 9.905999)
-		(gr_text "95,0000 mm"
+		(gr_text "95.0000 mm"
 			(at 61.697001 88.392 90)
 			(layer "F.Cu")
 			(uuid "78d0d108-9cac-4f14-ad9a-526ed9d9b186")
@@ -26467,7 +26597,7 @@
 			(xy 73.403 40.892) (xy 213.403 40.892)
 		)
 		(height -6.223)
-		(gr_text "140,0000 mm"
+		(gr_text "140.0000 mm"
 			(at 143.403 32.869 0)
 			(layer "F.Cu")
 			(uuid "e114f118-16e8-4100-8402-b276bbf3ce7f")
